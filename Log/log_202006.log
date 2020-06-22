@@ -1,0 +1,263 @@
+[2020-06-12 09:37:35][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 09:38:51][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 09:44:48][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:13:45][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:21:46][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:23:03][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:25:23][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:25:47][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 11:26:09][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 15:43:35][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-12 15:56:03][debug][error]:[SQLSTATE[HY000] [2002] No route to host at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-06-12 15:56:33][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] No route to host in /www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-06-12 16:03:45][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-13 10:02:56][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-13 10:15:15][debug][error]:[Argument 1 passed to EasySwoole\ORM\Utility\TableObjectGeneration::__construct() must be an instance of EasySwoole\ORM\Db\ConnectionInterface, null given, called in /www/wwwroot/one/vendor/easyswoole/orm/src/Concern/Attribute.php on line 63 at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Utility/TableObjectGeneration.php line:28]
+[2020-06-13 10:37:50][debug][error]:[Uncaught TypeError: Argument 1 passed to EasySwoole\ORM\DbManager::addConnection() must be an instance of EasySwoole\ORM\Db\ConnectionInterface, string given, called in /www/wwwroot/one/EasySwooleEvent.php on line 39 and defined in /www/wwwroot/one/vendor/easyswoole/orm/src/DbManager.php:34
+Stack trace:
+#0 /www/wwwroot/one/EasySwooleEvent.php(39): EasySwoole\ORM\DbManager->addConnection('mysql', Object(EasySwoole\ORM\Db\Config))
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswool at file:/www/wwwroot/one/vendor/easyswoole/orm/src/DbManager.php line:34]
+[2020-06-13 10:39:24][debug][error]:[Uncaught TypeError: Argument 1 passed to EasySwoole\ORM\DbManager::addConnection() must be an instance of EasySwoole\ORM\Db\ConnectionInterface, string given, called in /www/wwwroot/one/EasySwooleEvent.php on line 45 and defined in /www/wwwroot/one/vendor/easyswoole/orm/src/DbManager.php:34
+Stack trace:
+#0 /www/wwwroot/one/EasySwooleEvent.php(45): EasySwoole\ORM\DbManager->addConnection('mysql', Object(EasySwoole\ORM\Db\Config))
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer at file:/www/wwwroot/one/vendor/easyswoole/orm/src/DbManager.php line:34]
+[2020-06-13 10:55:44][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 10:55:44][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 17 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:02:47][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:02:47][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 17 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:04:14][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:05:04][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:05:37][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:05:37][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 17 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:06:11][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:06:11][debug][error]:[Call to a member function toArray() on array at file:/www/wwwroot/one/App/HttpController/Index.php line:17]
+[2020-06-13 11:07:36][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:07:36][debug][error]:[Too few arguments to function App\Models\UserModel::get(), 1 passed in /www/wwwroot/one/App/HttpController/Index.php on line 15 and exactly 2 expected at file:/www/wwwroot/one/App/Models/UserModel.php line:20]
+[2020-06-13 11:11:59][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:11:59][debug][error]:[Too few arguments to function App\Models\UserModel::get(), 1 passed in /www/wwwroot/one/App/HttpController/Index.php on line 14 and exactly 2 expected at file:/www/wwwroot/one/App/Models/UserModel.php line:20]
+[2020-06-13 11:12:00][debug][error]:[Too few arguments to function App\Models\UserModel::get(), 1 passed in /www/wwwroot/one/App/HttpController/Index.php on line 14 and exactly 2 expected at file:/www/wwwroot/one/App/Models/UserModel.php line:20]
+[2020-06-13 11:12:26][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:12:26][debug][error]:[Call to a member function toArray() on array at file:/www/wwwroot/one/App/HttpController/Index.php line:17]
+[2020-06-13 11:13:39][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:13:39][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 17 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:15:10][debug][warning]:[Declaration of App\Models\UserModel::get($where, bool $returnAsArray) should be compatible with EasySwoole\ORM\AbstractModel::get($where = NULL) at file:/www/wwwroot/one/App/Models/UserModel.php line:13]
+[2020-06-13 11:15:10][debug][error]:[Call to a member function count() on array at file:/www/wwwroot/one/App/HttpController/Index.php line:17]
+[2020-06-13 11:22:25][debug][error]:[SQLSTATE[HY000] [2002] No route to host at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-06-13 11:22:40][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] No route to host in /www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /www/wwwroot/one/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-06-13 11:24:31][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/wwwroot/one/App/HttpController/Index.php on line 19 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:25:09][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 19 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:26:22][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 19 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:26:44][debug][error]:[SQLSTATE[42S02] [1146] Table 'one.ucb_user' doesn't exist [show full columns from ucb_user] at file:/www/wwwroot/one/vendor/easyswoole/orm/src/Db/MysqliClient.php line:68]
+[2020-06-13 11:27:41][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/wwwroot/one/App/HttpController/Index.php on line 19 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 11:28:26][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/wwwroot/one/App/HttpController/Index.php on line 19 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 16:07:39][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 43 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 16:10:02][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 44 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 16:17:36][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 44 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-13 16:18:27][debug][warning]:[Declaration of App\Base\BaseController::onException(App\Base\Throwable $throwable): void should be compatible with EasySwoole\Http\AbstractInterface\Controller::onException(Throwable $throwable): void at file:/www/wwwroot/one/App/Base/BaseController.php line:12]
+[2020-06-13 16:18:27][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of Error given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-13 16:19:00][debug][warning]:[Declaration of App\Base\BaseController::onException(App\Base\Throwable $throwable): void should be compatible with EasySwoole\Http\AbstractInterface\Controller::onException(Throwable $throwable): void at file:/www/wwwroot/one/App/Base/BaseController.php line:12]
+[2020-06-13 16:19:00][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of Error given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-15 10:12:42][debug][warning]:[Declaration of App\Base\BaseController::onException(App\Base\Throwable $throwable): void should be compatible with EasySwoole\Http\AbstractInterface\Controller::onException(Throwable $throwable): void at file:/www/wwwroot/one/App/Base/BaseController.php line:13]
+[2020-06-16 09:31:43][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9502], Error: Address already in use[98] in /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9502, 2, 1)
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9502, 2, '0.0.0.0', Array, 2, 1)
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#5 /www/wwwroot/one/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#6 {main}
+  thrown at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-06-16 09:32:06][debug][warning]:[Declaration of App\Base\BaseController::onException(App\Base\Throwable $throwable): void should be compatible with EasySwoole\Http\AbstractInterface\Controller::onException(Throwable $throwable): void at file:/www/wwwroot/one/App/Base/BaseController.php line:13]
+[2020-06-16 09:32:06][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of TypeError given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-16 09:32:06][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of Error given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-16 09:34:12][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of TypeError given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-16 09:34:12][debug][error]:[Argument 1 passed to App\Base\BaseController::onException() must be an instance of App\Base\Throwable, instance of Error given, called in /www/wwwroot/one/vendor/easyswoole/http/src/AbstractInterface/Controller.php on line 169 at file:/www/wwwroot/one/App/Base/BaseController.php line:141]
+[2020-06-16 09:37:32][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, null given, called in /www/wwwroot/one/App/HttpController/Index.php on line 22 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-16 09:40:54][debug][error]:[Call to a member function toArray() on array at file:/www/wwwroot/one/App/Models/UserModel.php line:23]
+[2020-06-16 09:43:27][debug][error]:[Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /www/wwwroot/one/App/HttpController/Index.php on line 22 at file:/www/wwwroot/one/vendor/easyswoole/http/src/Response.php line:76]
+[2020-06-16 13:50:01][debug][warning]:[Use of undefined constant qqqqqqqqqqqqqqqqq - assumed 'qqqqqqqqqqqqqqqqq' (this will throw an Error in a future version of PHP) at file:/www/wwwroot/one/EasySwooleEvent.php line:48]
+[2020-06-16 13:50:01][debug][error]:[Uncaught Swoole\Error: API must be called in the coroutine in /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php:35
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php(35): Swoole\Coroutine\Client->connect('127.0.0.1', 6379, 3)
+#1 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(217): EasySwoole\Redis\Client->connect(3)
+#2 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(2868): EasySwoole\Redis\Redis->connect()
+#3 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(573): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /www/wwwroot/one/EasySwooleEvent.php(48): EasySwoole\Redis\Redis->set('a', 'qqqqqqqqqqqqqqq...')
+#5 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#6 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#7 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Co at file:/www/wwwroot/one/vendor/easyswoole/redis/src/Client.php line:35]
+[2020-06-16 13:50:22][debug][warning]:[Use of undefined constant qqqqqqqqqqqqqqqqq - assumed 'qqqqqqqqqqqqqqqqq' (this will throw an Error in a future version of PHP) at file:/www/wwwroot/one/EasySwooleEvent.php line:48]
+[2020-06-16 13:50:22][debug][error]:[Uncaught Swoole\Error: API must be called in the coroutine in /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php:35
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php(35): Swoole\Coroutine\Client->connect('127.0.0.1', 6379, 3)
+#1 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(217): EasySwoole\Redis\Client->connect(3)
+#2 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(2868): EasySwoole\Redis\Redis->connect()
+#3 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(573): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /www/wwwroot/one/EasySwooleEvent.php(48): EasySwoole\Redis\Redis->set('a', 'qqqqqqqqqqqqqqq...')
+#5 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#6 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#7 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Co at file:/www/wwwroot/one/vendor/easyswoole/redis/src/Client.php line:35]
+[2020-06-16 13:50:56][debug][error]:[Uncaught Swoole\Error: API must be called in the coroutine in /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php:35
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php(35): Swoole\Coroutine\Client->connect('127.0.0.1', 6379, 3)
+#1 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(217): EasySwoole\Redis\Client->connect(3)
+#2 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(2868): EasySwoole\Redis\Redis->connect()
+#3 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(573): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /www/wwwroot/one/EasySwooleEvent.php(48): EasySwoole\Redis\Redis->set('a', 'wwwwwwwwwwwwwww...')
+#5 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#6 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#7 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Co at file:/www/wwwroot/one/vendor/easyswoole/redis/src/Client.php line:35]
+[2020-06-16 13:53:09][debug][error]:[Uncaught Swoole\Error: API must be called in the coroutine in /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php:35
+Stack trace:
+#0 /www/wwwroot/one/vendor/easyswoole/redis/src/Client.php(35): Swoole\Coroutine\Client->connect('127.0.0.1', 6379, 3)
+#1 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(217): EasySwoole\Redis\Client->connect(3)
+#2 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(2868): EasySwoole\Redis\Redis->connect()
+#3 /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php(573): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /www/wwwroot/one/EasySwooleEvent.php(48): EasySwoole\Redis\Redis->set('a', 1)
+#5 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#6 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#7 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContai at file:/www/wwwroot/one/vendor/easyswoole/redis/src/Client.php line:35]
+[2020-06-16 14:11:25][debug][error]:[Uncaught TypeError: Argument 1 passed to EasySwoole\Redis\Redis::__construct() must be an instance of EasySwoole\Redis\Config\RedisConfig, instance of EasySwoole\ORM\Db\Config given, called in /www/wwwroot/one/EasySwooleEvent.php on line 44 and defined in /www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php:199
+Stack trace:
+#0 /www/wwwroot/one/EasySwooleEvent.php(44): EasySwoole\Redis\Redis->__construct(Object(EasySwoole\ORM\Db\Config))
+#1 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#2 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /www/wwwroot/one/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\Comman at file:/www/wwwroot/one/vendor/easyswoole/redis/src/Redis.php line:199]
+[2020-06-16 14:15:49][debug][warning]:[Swoole\Server::start(): eventLoop has already been created, unable to start Swoole\Http\Server at file:/www/wwwroot/one/vendor/easyswoole/easyswoole/src/ServerManager.php line:117]
+[2020-06-16 17:19:42][debug][notice]:[Undefined property: App\HttpController\Index::$params at file:/www/wwwroot/one/App/Base/BaseController.php line:62]
+[2020-06-16 17:20:39][debug][notice]:[Undefined property: App\HttpController\Index::$params at file:/www/wwwroot/one/App/Base/BaseController.php line:62]
+[2020-06-16 17:21:00][debug][notice]:[Undefined property: App\HttpController\Index::$params at file:/www/wwwroot/one/App/Base/BaseController.php line:62]
+[2020-06-16 17:27:53][debug][error]:[Call to undefined method EasySwoole\Http\Response::getRequestParam() at file:/www/wwwroot/one/App/HttpController/Index.php line:24]
+[2020-06-16 17:28:57][debug][error]:[Call to undefined method EasySwoole\Http\Response::getRequestParam() at file:/www/wwwroot/one/App/HttpController/Index.php line:24]
+[2020-06-16 17:29:09][debug][error]:[Call to undefined method EasySwoole\Http\Response::getRequestParam() at file:/www/wwwroot/one/App/HttpController/Index.php line:24]
+[2020-06-16 17:29:24][debug][error]:[Call to undefined method EasySwoole\Http\Response::getRequestParam() at file:/www/wwwroot/one/App/HttpController/Index.php line:24]
+[2020-06-16 17:31:07][debug][error]:[Call to undefined method EasySwoole\Http\Response::getRequestParam() at file:/www/wwwroot/one/App/HttpController/Index.php line:24]
