@@ -68,5 +68,4 @@ class Index extends BaseController
         return $this->apiSuccess($res);
     }
 
-
 }
