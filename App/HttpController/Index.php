@@ -68,6 +68,4 @@ class Index extends BaseController
         return $this->apiSuccess($res);
     }
 
-    //测试git
-
 }
